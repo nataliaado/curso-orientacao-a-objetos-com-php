@@ -16,3 +16,4 @@ var_dump($segundaConta);
 $outra = new Conta('123', 'Abcdefg');
 unset($segundaConta);
 echo Conta::recuperaNumeroDeContas();
+
